@@ -18,10 +18,10 @@ def scrape():
 
     # Input credentials and sign in
     inputting = website.ele('tag:input@id:email')
-    inputting.input("adylzunusov2@gmail.com")
+    inputting.input("USER")
     time.sleep(3)
     inputting2 = website.ele('tag:input@id:password')
-    inputting2.input('jM7LK6VU?!zyFBE')
+    inputting2.input('PASSWORD')
     time.sleep(5)
     website.ele('Sign In').click()
     time.sleep(8)
