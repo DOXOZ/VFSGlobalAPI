@@ -75,3 +75,6 @@ displayed on the calendar. It then provides the scraped data through a Flask-bas
 ## Security Notice
 This script contains login credentials directly in the code, which is not secure for production use. Consider using environment variables or a secure credential storage mechanism.
 
+## Images
+![image](https://github.com/user-attachments/assets/01394cd4-b447-4ca4-9a2e-11b785fe8d6a)
+
