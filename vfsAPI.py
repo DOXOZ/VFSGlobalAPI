@@ -52,13 +52,13 @@ def scrape():
     website.ele('@role=combobox').click()
     website.ele(' KYRGYZSTAN ').click()
     time.sleep(5)
-    website.ele('@placeholder=Enter passport number').input('3068694')
+    website.ele('@placeholder=Enter passport number').input('ID')
     time.sleep(5)
-    website.ele('@placeholder=Please select the date').input('16/11/2032')
-    website.ele('@placeholder=44').input('996')
-    website.ele('@placeholder=012345648382').input('776913494')
+    website.ele('@placeholder=Please select the date').input('DATE')
+    website.ele('@placeholder=44').input('COUNTRYNUMBER')
+    website.ele('@placeholder=012345648382').input('PHONE NUMBER')
     time.sleep(10)
-    website.ele('@placeholder=Enter Email Address').input('adylzunusov2@gmail.com')
+    website.ele('@placeholder=Enter Email Address').input('MAIL')
     time.sleep(5)
 
     try:
